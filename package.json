@@ -1,0 +1,20 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "jwt best practice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": " ^2.0.22"
+  },
+  "author": "Yüksel Ertem",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
